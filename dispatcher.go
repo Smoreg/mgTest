@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-// Dispatcher simple jobs dispatcher
+// Dispatcher simple jobs dispatcherdddddddddddddddddddd
 type Dispatcher struct {
 	workerPool chan chan Job // chans from workers ready to new jobs
 	jobQueue   chan Job
