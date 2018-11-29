@@ -20,7 +20,7 @@ type sourceProcessType func(string) (io.ReadCloser, error)
 type Job interface {
 	Run()
 }
-
+dasdaasddasasdads
 // JobResult general job result interface
 type JobResult interface {
 	Result() interface{}
